@@ -1,0 +1,52 @@
+### Node dependencies
+node_modules/
+backend/node_modules/
+medical/node_modules/
+
+### Build outputs
+dist/
+build/
+medical/dist/
+medical/build/
+
+### Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+### Environment & secrets
+.env
+backend/.env
+medical/.env
+.env.local
+.env.*.local
+
+### OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+~$*
+
+### IDE / tooling
+.vscode/
+.idea/
+.history/
+.cursor/
+
+### Coverage / test outputs
+coverage/
+.nyc_output/
+
+### Uploads & generated files
+uploads/
+backend/uploads/
+
+### Encryption key material
+backend/key
+backend/key*
+*.pid
+
